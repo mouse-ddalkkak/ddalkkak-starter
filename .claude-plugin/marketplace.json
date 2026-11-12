@@ -1,0 +1,12 @@
+{
+  "name": "ddalkkak-starter",
+  "description": "딸깍 스타터킷을 Spring Boot 앱에 넣어 주는 Claude Code · Codex 플러그인",
+  "owner": { "name": "Team Mouse" },
+  "plugins": [
+    {
+      "name": "ddalkkak-starter",
+      "source": "./plugins/ddalkkak-starter",
+      "description": "Spring Boot 앱에 딸깍 스타터킷 의존성을 넣고 빌드를 확인한 뒤 재시작 · 연결 허용을 안내합니다"
+    }
+  ]
+}

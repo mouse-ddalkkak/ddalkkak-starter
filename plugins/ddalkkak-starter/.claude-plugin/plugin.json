@@ -1,0 +1,9 @@
+{
+  "name": "ddalkkak-starter",
+  "version": "1.0.0",
+  "description": "Spring Boot 앱에 딸깍 스타터킷 의존성을 넣고 빌드를 확인한 뒤 재시작 · 연결 허용을 안내합니다",
+  "author": { "name": "Team Mouse" },
+  "homepage": "https://github.com/mouse-ddalkkak/ddalkkak-starter",
+  "repository": "https://github.com/mouse-ddalkkak/ddalkkak-starter",
+  "license": "Apache-2.0"
+}
