@@ -7,7 +7,7 @@ description: 이 Spring Boot 프로젝트에 딸깍 스타터킷(com.github.mous
 
 [딸깍](https://github.com/mouse-ddalkkak/ddalkkak)이 앱을 검사하려면 앱에 스타터킷 라이브러리가 들어 있어야 한다. 키와 설정 파일은 필요 없다. 앱이 켜지면 같은 컴퓨터의 딸깍(`http://localhost:7777`)을 스스로 찾아 연결을 요청한다.
 
-넣을 버전은 **`v1.1.0`** 이다. 딸깍 v1.1.x용이고, 다른 딸깍 버전은 [호환 표](https://github.com/mouse-ddalkkak/ddalkkak-starter#호환-버전)를 본다.
+넣을 버전은 **`v1.2.0`** 이다. 딸깍 v1.2.x용이고, 다른 딸깍 버전은 [호환 표](https://github.com/mouse-ddalkkak/ddalkkak-starter#호환-버전)를 본다.
 
 ## 1. 먼저 확인한다
 
@@ -16,7 +16,7 @@ description: 이 Spring Boot 프로젝트에 딸깍 스타터킷(com.github.mous
 - 빌드 도구와 설정 파일: `build.gradle` · `build.gradle.kts` · `pom.xml`. 멀티 모듈이면 `@SpringBootApplication`이 있는(실제로 띄우는) 모듈에 넣는다
 - Spring Boot 3.2 이상(4.x 포함) · Java 17 이상
 - Spring MVC(서블릿) 앱: `spring-boot-starter-web`(Boot 4는 `spring-boot-starter-webmvc`)이나 war 배포. WebFlux만 있는 앱은 지원하지 않는다
-- 이미 `com.github.mouse-ddalkkak:ddalkkak`이 있으면 새로 더하지 않고 버전만 `v1.1.0`으로 맞춘다
+- 이미 `com.github.mouse-ddalkkak:ddalkkak`이 있으면 새로 더하지 않고 버전만 `v1.2.0`으로 맞춘다
 
 ## 2. 의존성을 넣는다
 
@@ -26,21 +26,21 @@ Gradle (`build.gradle`)
 
 ```groovy
 repositories { maven { url 'https://jitpack.io' } }
-dependencies { implementation 'com.github.mouse-ddalkkak:ddalkkak:v1.1.0' }
+dependencies { implementation 'com.github.mouse-ddalkkak:ddalkkak:v1.2.0' }
 ```
 
 Gradle Kotlin DSL (`build.gradle.kts`)
 
 ```kotlin
 repositories { maven("https://jitpack.io") }
-dependencies { implementation("com.github.mouse-ddalkkak:ddalkkak:v1.1.0") }
+dependencies { implementation("com.github.mouse-ddalkkak:ddalkkak:v1.2.0") }
 ```
 
 Maven (`pom.xml`)
 
 ```xml
 <repositories><repository><id>jitpack.io</id><url>https://jitpack.io</url></repository></repositories>
-<dependency><groupId>com.github.mouse-ddalkkak</groupId><artifactId>ddalkkak</artifactId><version>v1.1.0</version></dependency>
+<dependency><groupId>com.github.mouse-ddalkkak</groupId><artifactId>ddalkkak</artifactId><version>v1.2.0</version></dependency>
 ```
 
 ## 3. 커밋 정보 플러그인을 넣는다

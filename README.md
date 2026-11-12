@@ -34,21 +34,21 @@ Gradle (`build.gradle`)
 
 ```groovy
 repositories { maven { url 'https://jitpack.io' } }
-dependencies { implementation 'com.github.mouse-ddalkkak:ddalkkak:v1.1.0' }
+dependencies { implementation 'com.github.mouse-ddalkkak:ddalkkak:v1.2.0' }
 ```
 
 Gradle Kotlin DSL (`build.gradle.kts`)
 
 ```kotlin
 repositories { maven("https://jitpack.io") }
-dependencies { implementation("com.github.mouse-ddalkkak:ddalkkak:v1.1.0") }
+dependencies { implementation("com.github.mouse-ddalkkak:ddalkkak:v1.2.0") }
 ```
 
 Maven (`pom.xml`)
 
 ```xml
 <repositories><repository><id>jitpack.io</id><url>https://jitpack.io</url></repository></repositories>
-<dependency><groupId>com.github.mouse-ddalkkak</groupId><artifactId>ddalkkak</artifactId><version>v1.1.0</version></dependency>
+<dependency><groupId>com.github.mouse-ddalkkak</groupId><artifactId>ddalkkak</artifactId><version>v1.2.0</version></dependency>
 ```
 
 딸깍을 7777이 아닌 포트로 설치했거나 앱이 Docker 안에서 돈다면 앱을 띄울 때 `DDALKKAK_URL=http://<딸깍 주소>:<포트>`를 넣습니다.
@@ -57,6 +57,7 @@ Maven (`pom.xml`)
 
 | ddalkkak-starter | 딸깍 | 넣는 스타터킷 |
 | --- | --- | --- |
+| v1.1.0 | v1.2.x | `v1.2.0` |
 | v1.0.0 | v1.1.x | `v1.1.0` |
 
 딸깍 v1.0.0은 지원하지 않습니다. 딸깍 설치 명령을 다시 실행해 올립니다. 이 저장소는 딸깍 본체와 따로 버전을 매깁니다. 플러그인을 새 버전으로 받으려면 `claude plugin marketplace update ddalkkak-starter` · `codex plugin marketplace upgrade ddalkkak-starter`를 실행합니다.
